@@ -1,0 +1,60 @@
+/*p para referenciar a la otra pagina*/
+
+p{
+
+	font-style: italic;
+}
+body{
+	margin: 0;
+	font-family: monospace;
+}
+/* # para id, . para class*/
+#contacto{
+	/*fondo de pantalla*/
+	background-color: black;
+	color: #ff9800;
+}
+
+
+.contacto-content{
+	/*anchura*/
+	width: 70%;
+	/*tamaño de letra*/
+	font-size: 11px;
+	/*alianeacion de texto (center, left, right)*/
+	text-align: center;
+	/* con 4 valores:1 arriba, 2 derecha, 3 abajo 4 izquierda
+	con 2 valaores arriba y abajo 1 y derecha e izquierda 2*/
+	padding: 0% 15%;
+
+
+}
+.mi_header{
+	background-image: url("IM.jpg");
+	/*altura*/
+	height: 800px;
+	color: #ff9800;
+	/*referenciar tamaño con la imagen*/
+	background-size: 100%;
+	/*para que no repita*/
+	background-repeat: no-repeat;
+	/*modo de presentar el contenido*/
+	display: flex;
+	/*sentido de escala colum arriba y aajo row lados*/
+	flex-direction: column;
+	/*altura minima, vh=unidades de pantalla*/
+	min-height: 100vh;
+	max-height: 100vh;
+
+}
+.header-content{
+	padding-top: 100px;
+	padding-left: 10%;
+	max-width: 60%;
+}
+.titulo-especial{
+	font-family: fantasy;
+}
+.colorsito{
+	color:black;
+}
